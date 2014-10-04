@@ -1,0 +1,27 @@
+OBJECT <A> 
+0. VTABLE <_vt__A__A>
+4. y
+Details for vtable at offset 0 : 
+_m0__A__f
+
+
+
+OBJECT <B> 
+0. VTABLE <_vt__B__B>
+4. z
+Details for vtable at offset 0 : 
+
+
+
+OBJECT <C> 
+0. VTABLE <_vt__C__C>
+4. y
+8. VTABLE <_vt__C__B>
+12. z
+16. q
+Details for vtable at offset 0 : 
+_m1__C__f
+Details for vtable at offset 8 : 
+
+
+

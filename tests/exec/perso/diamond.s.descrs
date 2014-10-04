@@ -1,0 +1,36 @@
+OBJECT <A> 
+0. VTABLE <_vt__A__A>
+4. a
+Details for vtable at offset 0 : 
+
+
+
+OBJECT <B> 
+0. VTABLE <_vt__B__B>
+4. a
+8. b
+Details for vtable at offset 0 : 
+
+
+
+OBJECT <C> 
+0. VTABLE <_vt__C__C>
+4. a
+8. c
+Details for vtable at offset 0 : 
+
+
+
+OBJECT <D> 
+0. VTABLE <_vt__D__D>
+4. a
+8. b
+12. VTABLE <_vt__D__C>
+16. 
+20. c
+24. d
+Details for vtable at offset 0 : 
+Details for vtable at offset 12 : 
+
+
+

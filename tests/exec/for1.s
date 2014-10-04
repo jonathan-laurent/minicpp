@@ -1,0 +1,31 @@
+	.text
+	jal  _p0__main
+	li   $v0, 10
+	syscall
+_p0__main:
+	addi $sp, $sp, -4
+	li   $t0, 0
+L27:
+	li   $t1, 10
+	slt  $t1, $t0, $t1
+	bnez $t1, L23
+	addi $sp, $sp, 4
+	jr   $ra
+L23:
+	la   $a0, _s__1
+	li   $v0, 4
+	syscall
+	move $a0, $t0
+	li   $v0, 1
+	syscall
+	la   $a0, _s__0
+	li   $v0, 4
+	syscall
+	addi $t0, $t0, 1
+	b    L27
+	.data
+_s__0:
+	.asciiz "\n"
+_s__1:
+	.asciiz "i = "
+

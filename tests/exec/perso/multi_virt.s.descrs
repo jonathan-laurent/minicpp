@@ -1,0 +1,63 @@
+OBJECT <A> 
+0. VTABLE <_vt__A__A>
+4. a
+Details for vtable at offset 0 : 
+_m0__A__fa
+
+
+
+OBJECT <B> 
+0. VTABLE <_vt__B__B>
+4. b
+Details for vtable at offset 0 : 
+_m1__B__fb
+_m2__B__h
+
+
+
+OBJECT <C> 
+0. VTABLE <_vt__C__C>
+4. a
+8. VTABLE <_vt__C__B>
+12. b
+16. c
+Details for vtable at offset 0 : 
+_m0__A__fa
+_m3__C__fc
+Details for vtable at offset 8 : 
+_m1__B__fb
+_m2__B__h
+
+
+
+OBJECT <D> 
+0. VTABLE <_vt__D__D>
+4. d
+Details for vtable at offset 0 : 
+_m4__D__fd
+_m5__D__h
+
+
+
+OBJECT <E> 
+0. VTABLE <_vt__E__E>
+4. a
+8. VTABLE <_vt__E__B>
+12. b
+16. c
+20. VTABLE <_vt__E__D>
+24. d
+28. e
+Details for vtable at offset 0 : 
+_m0__A__fa
+_m3__C__fc
+_m6__E__fd
+Details for vtable at offset 8 : 
+_m7__E__fb
+_m8__E__h
+Details for vtable at offset 20 : 
+_m6__E__fd
+_m8__E__h
+
+
+
